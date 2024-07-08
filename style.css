@@ -128,5 +128,6 @@ input[type="search"] {
     grid-template-columns: repeat(1, 1fr);
     grid-gap: 28px;
     margin-top: 20px;
+    width: 500px;
   }
 }
