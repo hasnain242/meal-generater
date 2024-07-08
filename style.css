@@ -119,6 +119,14 @@ input[type="search"] {
 
 @media (max-width: 500px) {
   input[type="text"] {
-    width: 100%;
+    width: 50%;
+  }
+}
+@media (max-width:500px) {
+  .meals {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 28px;
+    margin-top: 20px;
   }
 }
